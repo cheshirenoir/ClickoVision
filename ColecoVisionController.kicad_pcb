@@ -115,7 +115,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7b2e8849-f78b-45bd-a268-bedf0f9056f3")
+			(uuid "befec667-f531-4c9e-917e-fceb054263d1")
 			(effects
 				(font
 					(size 1 1)
@@ -127,7 +127,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c6528471-a73e-478f-86d1-c9de5b4f354e")
+			(uuid "a7d1283c-ac38-4ec7-bf0b-bd33de0a684c")
 			(effects
 				(font
 					(size 1 1)
@@ -140,7 +140,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf47d08f-ea17-4fd5-8a82-fa3fa5e473df")
+			(uuid "b370b3bd-7635-40ac-b0b9-904e496938ae")
 			(effects
 				(font
 					(size 1 1)
@@ -153,7 +153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa2bba7e-91cb-4fd5-b62a-098304226d45")
+			(uuid "cd37d7b9-c38f-4c7b-bcda-68e629951ac0")
 			(effects
 				(font
 					(size 1 1)
@@ -166,7 +166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d95d4875-a2e9-493b-aba4-82d15f9b6fed")
+			(uuid "af312111-ab14-489c-9f8b-08bc4f58f465")
 			(effects
 				(font
 					(size 1 1)
@@ -181,13 +181,13 @@
 		(attr through_hole)
 		(fp_line
 			(start 6 -6)
-			(end 6 -3.4)
+			(end 6 -3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5eeae241-8122-4e04-bfad-c8e0eaeef1fc")
+			(uuid "b28169d3-7f16-454d-97ab-91c8e5d571d8")
 		)
 		(fp_line
 			(start -6 -6)
@@ -197,27 +197,27 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a4a895ff-f9bb-44a3-a33c-08d3ca60890d")
+			(uuid "e7348455-0f67-4caf-8754-97b2101e4d0d")
 		)
 		(fp_line
-			(start -6 -3.4)
+			(start -6 -3.6)
 			(end -6 -6)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d221bbbc-7506-4702-9c0f-258db405284e")
+			(uuid "290e8d62-2965-428a-ba15-6240b1212e83")
 		)
 		(fp_line
 			(start 6 6)
-			(end 6 3.4)
+			(end 6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a3577b24-d35f-491c-bdc8-2d6e41ad982a")
+			(uuid "314f87e8-bf08-45e6-99e3-dac205af007d")
 		)
 		(fp_line
 			(start 6 6)
@@ -227,61 +227,61 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "06de73c2-93a5-47ec-bdc1-cb1f24e17641")
+			(uuid "2d6b01a2-319f-4631-a19d-16501124d9e1")
 		)
 		(fp_line
 			(start -6 6)
-			(end -6 3.4)
+			(end -6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e5625faa-179c-46c6-9946-90b3ea02ad44")
+			(uuid "7e5e851d-582e-474e-a5f0-b9dedd9d4636")
 		)
-		(pad "1" thru_hole circle
-			(at -6.25 -2.5 270)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "1" thru_hole oval
+			(at -6.4 -2.5 270)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "Net-(D15-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e77fc91a-6b57-4c5a-b6f1-ee2da90a8cdf")
+			(uuid "bc9a297e-fa09-4c8e-91b4-f18472acc041")
 		)
-		(pad "2" thru_hole circle
-			(at 6.25 -2.5 270)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "2" thru_hole oval
+			(at 6.4 -2.5 270)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 20 "Net-(D15-K)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "edd26f8a-ccf8-4f2b-8bcb-7e1ed9b5cbc3")
+			(uuid "5a57e869-2f2f-485f-9afc-82e63cdbd1da")
 		)
-		(pad "3" thru_hole circle
-			(at 6.25 2.5 270)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "3" thru_hole oval
+			(at 6.4 2.5 270)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "26dc9406-bafd-4f93-96ae-8580d2c2dc76")
+			(uuid "5fe99df5-3ca8-4120-8195-e9600df4e2d3")
 		)
-		(pad "4" thru_hole circle
-			(at -6.25 2.5 270)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "4" thru_hole oval
+			(at -6.4 2.5 270)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "4afd8a42-b086-4adb-b5c5-55a11a9b7a93")
+			(uuid "5cd211a2-32d0-494a-9aa4-dc2e5f0a714e")
 		)
 	)
 	(footprint "CheshBits:SW_PUSH_4pin_6mm"
@@ -3598,7 +3598,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0801e23d-6f51-4060-bdaf-086c98d13284")
+			(uuid "76b00d79-34ca-4144-abf7-96387b264955")
 			(effects
 				(font
 					(size 1 1)
@@ -3610,7 +3610,7 @@
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9a8eb410-c299-4e19-b3ea-460222abfc4f")
+			(uuid "8a4daa2b-40f2-4ddb-b8e4-caa61273a3ff")
 			(effects
 				(font
 					(size 1 1)
@@ -3623,7 +3623,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e31f2e3d-3160-4a5c-88ff-e8aab691cb86")
+			(uuid "9dd40c89-f258-4cfc-8a49-bee287c2644d")
 			(effects
 				(font
 					(size 1 1)
@@ -3636,7 +3636,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c50472b8-857b-4635-b8e3-21954813a6ed")
+			(uuid "d809a0c3-a15e-4c89-8224-dea39103daad")
 			(effects
 				(font
 					(size 1 1)
@@ -3649,7 +3649,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b037fecf-21fd-48e2-a269-aa93169f4b6b")
+			(uuid "322697da-ed03-4e27-bcc4-d480eeb95d8b")
 			(effects
 				(font
 					(size 1 1)
@@ -3664,13 +3664,13 @@
 		(attr through_hole)
 		(fp_line
 			(start 6 6)
-			(end 6 3.4)
+			(end 6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8f8fed98-5831-440f-94cd-e21cc49e4def")
+			(uuid "fdab9302-9011-4895-897b-c320625cdde6")
 		)
 		(fp_line
 			(start 6 6)
@@ -3680,37 +3680,37 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "a85e2b0c-d58e-49ed-b799-b381a6fd39de")
+			(uuid "9cbc2a74-70ad-4da1-86db-4f857e0e6018")
 		)
 		(fp_line
 			(start 6 -6)
-			(end 6 -3.4)
+			(end 6 -3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2fd80da0-903a-42e1-bb21-65287214a3b6")
+			(uuid "512683d1-43d7-42ee-bc44-4d992fd9b57c")
 		)
 		(fp_line
 			(start -6 6)
-			(end -6 3.4)
+			(end -6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2d084dc2-dab0-426e-9bac-33755079e7e2")
+			(uuid "d28419c2-c11c-4924-85f6-1edf24687eeb")
 		)
 		(fp_line
-			(start -6 -3.4)
+			(start -6 -3.6)
 			(end -6 -6)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3366e7e5-8909-4ef0-9f8e-c7dd7da3a8e4")
+			(uuid "84837d5a-7aba-438a-9fee-8296dd764dce")
 		)
 		(fp_line
 			(start -6 -6)
@@ -3720,51 +3720,51 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4fd85b9c-87d0-4aee-9072-9f3f6ad650de")
+			(uuid "0c4bcdcc-5bbb-4644-9a53-b785012dae9d")
 		)
-		(pad "1" thru_hole circle
-			(at -6.25 -2.5)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "1" thru_hole oval
+			(at -6.4 -2.5)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(D2-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "eee5da95-dccf-4a06-8b8b-e49812230c5e")
+			(uuid "8eb13c6e-1783-4589-9187-878553d01cb3")
 		)
-		(pad "2" thru_hole circle
-			(at 6.25 -2.5)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "2" thru_hole oval
+			(at 6.4 -2.5)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "Net-(D2-K)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "69535859-3d4d-421a-b836-55eb2e6cd403")
+			(uuid "8d72c75b-f45e-4b01-8978-b9316face340")
 		)
-		(pad "3" thru_hole circle
-			(at 6.25 2.5)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "3" thru_hole oval
+			(at 6.4 2.5)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "84129967-c65b-449f-9174-633e2b4ddb95")
+			(uuid "4843f708-471c-41eb-9268-12a6160b5624")
 		)
-		(pad "4" thru_hole circle
-			(at -6.25 2.5)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "4" thru_hole oval
+			(at -6.4 2.5)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ddf5daaf-98d2-429d-b5e6-486a0805fbdc")
+			(uuid "89e70b89-1d85-4d9e-9e4c-0828a31da03f")
 		)
 	)
 	(footprint "CheshBits:SnapActionSwitch"
@@ -6712,7 +6712,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "950c33fd-bc09-409e-b521-f9a95304a495")
+			(uuid "7fabf890-21b8-4ac4-b0f7-0a59fc746dc1")
 			(effects
 				(font
 					(size 1 1)
@@ -6724,7 +6724,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7ffa3372-5f0a-4ee6-84dd-8ae3ee17b9f0")
+			(uuid "10340dae-66bf-4ae3-b8d5-3b9f5c1daa67")
 			(effects
 				(font
 					(size 1 1)
@@ -6737,7 +6737,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d442b6d-1740-4c76-ad85-ec1607513c35")
+			(uuid "7b69c638-b7cf-4b7d-998e-9ce322d5e451")
 			(effects
 				(font
 					(size 1 1)
@@ -6750,7 +6750,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c3244ef-bf2d-46d4-855f-d3241d9ba4a9")
+			(uuid "7cd9dda5-befd-47ed-b057-bcdf3b89d6ee")
 			(effects
 				(font
 					(size 1 1)
@@ -6763,7 +6763,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "886f919a-6ba4-4193-b93f-c78c15089f27")
+			(uuid "731d40ae-dab4-405a-a7ae-875405897745")
 			(effects
 				(font
 					(size 1 1)
@@ -6784,37 +6784,37 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "94138183-26a1-4683-83be-f1ecb5119f20")
+			(uuid "650b26f3-1df2-4774-af7e-4c8e733a30dc")
 		)
 		(fp_line
-			(start -6 -3.4)
+			(start -6 -3.6)
 			(end -6 -6)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3b25b945-1d9c-4004-bcc7-f7228c6b310b")
+			(uuid "d6768eec-eb66-4d2a-9a46-6b1c382686a7")
 		)
 		(fp_line
 			(start -6 6)
-			(end -6 3.4)
+			(end -6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "5fc4b6d0-c9d1-4c39-9785-347abb49bee6")
+			(uuid "5872e400-bdc9-47a1-9fd2-1799a4cbb6c6")
 		)
 		(fp_line
 			(start 6 -6)
-			(end 6 -3.4)
+			(end 6 -3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4e0eb4d8-2201-4694-8fd3-15b657d1ffbb")
+			(uuid "b8e8d0f0-f40e-46e2-86be-90f0f65ecac2")
 		)
 		(fp_line
 			(start 6 6)
@@ -6824,61 +6824,61 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cbd01b5b-75f5-4d5d-bcbe-6d56a3706d1a")
+			(uuid "1c7f8e09-5b3a-4134-a177-cbc1ea339081")
 		)
 		(fp_line
 			(start 6 6)
-			(end 6 3.4)
+			(end 6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c265d7a6-e61f-4174-aee4-4971d7e23054")
+			(uuid "a267ec92-206d-4396-a108-3900989f960c")
 		)
-		(pad "1" thru_hole circle
-			(at -6.25 -2.5 180)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "1" thru_hole oval
+			(at -6.4 -2.5 180)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(D17-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "65990605-1acb-4bc2-8971-dc202a690a81")
+			(uuid "35b7221c-e2ea-4848-a5ec-8208bf0e4e90")
 		)
-		(pad "2" thru_hole circle
-			(at 6.25 -2.5 180)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "2" thru_hole oval
+			(at 6.4 -2.5 180)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 22 "Net-(D17-K)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "84f3a3a0-6228-4337-a22e-de02161d3f82")
+			(uuid "adb2a51f-bf8d-4389-be99-877395cc5f8d")
 		)
-		(pad "3" thru_hole circle
-			(at 6.25 2.5 180)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "3" thru_hole oval
+			(at 6.4 2.5 180)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "8c07bb33-2979-4121-984d-e57357926d96")
+			(uuid "736ad35d-2496-4f57-acad-e404fe5c41da")
 		)
-		(pad "4" thru_hole circle
-			(at -6.25 2.5 180)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "4" thru_hole oval
+			(at -6.4 2.5 180)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "9ca411a9-4905-4f56-8811-6e48eb0d699c")
+			(uuid "d2f66cfe-3fa6-4271-a46c-66722f9263c3")
 		)
 	)
 	(footprint "CheshBits:SW_PUSH_4pin_6mm"
@@ -7469,7 +7469,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2ae73530-46ae-4ca7-9703-14d6f1301730")
+			(uuid "48c319d1-3f1a-4282-b994-6026268b64fe")
 			(effects
 				(font
 					(size 1 1)
@@ -7481,7 +7481,7 @@
 			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b111c264-04f0-4c9f-8281-3962485806fb")
+			(uuid "486abda8-439e-4df0-b446-dc31bbf29c69")
 			(effects
 				(font
 					(size 1 1)
@@ -7494,7 +7494,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de5994ca-7a99-4175-b772-fb995dabd3f5")
+			(uuid "8bd15e08-3c41-49f1-a916-1da709554918")
 			(effects
 				(font
 					(size 1 1)
@@ -7507,7 +7507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06bb2214-9c32-4855-bc2e-696791fa96e7")
+			(uuid "89d3ffab-3d7f-446c-acbd-29d5cf0d40b3")
 			(effects
 				(font
 					(size 1 1)
@@ -7520,7 +7520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2b0e9eb-212d-4456-bc95-1e605d93de29")
+			(uuid "1352fdb3-0ca6-4890-bfcd-30d52515156a")
 			(effects
 				(font
 					(size 1 1)
@@ -7535,13 +7535,13 @@
 		(attr through_hole)
 		(fp_line
 			(start -6 6)
-			(end -6 3.4)
+			(end -6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "79f4268c-3c5e-4d82-9766-10694d4683e5")
+			(uuid "70d37a9e-7a88-4ed9-982a-b61b8111cd9e")
 		)
 		(fp_line
 			(start 6 6)
@@ -7551,27 +7551,27 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7b7fb0f4-2084-4ea2-9e4c-cdff746261f6")
+			(uuid "eca3e5cc-e77d-4ea1-8020-cf4edd4c5c33")
 		)
 		(fp_line
 			(start 6 6)
-			(end 6 3.4)
+			(end 6 3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4cad327a-2717-47f8-8f0c-e055ada674c4")
+			(uuid "e101e13a-35f4-479a-893a-26ff94e36796")
 		)
 		(fp_line
-			(start -6 -3.4)
+			(start -6 -3.6)
 			(end -6 -6)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1fd9b14d-2e3e-410d-bdf1-874585ca478b")
+			(uuid "7222bb33-981f-4f81-9f0e-36b3ade17c36")
 		)
 		(fp_line
 			(start -6 -6)
@@ -7581,61 +7581,61 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "fab05774-10e6-4f98-8c3c-21f55c8304ad")
+			(uuid "e20fc3c4-f0f2-4295-b1d4-aefad32d863b")
 		)
 		(fp_line
 			(start 6 -6)
-			(end 6 -3.4)
+			(end 6 -3.6)
 			(stroke
 				(width 0.12)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ec542a17-24f5-4246-ba83-cd17607314e8")
+			(uuid "85ef3cff-162a-4227-a2b6-bc10d16d85cc")
 		)
-		(pad "1" thru_hole circle
-			(at -6.25 -2.5 90)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "1" thru_hole oval
+			(at -6.4 -2.5 90)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "Net-(D1-K)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fe5ebda0-021f-4816-b20e-4f367bcdc49a")
+			(uuid "10ab5948-a75c-496e-a65d-9b79821a7fc8")
 		)
-		(pad "2" thru_hole circle
-			(at 6.25 -2.5 90)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "2" thru_hole oval
+			(at 6.4 -2.5 90)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "Net-(D1-K)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "19985faf-cec6-4e78-83fe-66c2cc156ec0")
+			(uuid "f548785c-666a-4b3c-8db1-6c3d32800c54")
 		)
-		(pad "3" thru_hole circle
-			(at 6.25 2.5 90)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "3" thru_hole oval
+			(at 6.4 2.5 90)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "bb5eef28-7d15-40bd-b983-72f275b6e14a")
+			(uuid "658da49c-60f2-4359-b8e6-7e15c5bbe0c0")
 		)
-		(pad "4" thru_hole circle
-			(at -6.25 2.5 90)
-			(size 1.524 1.524)
-			(drill 0.762)
+		(pad "4" thru_hole oval
+			(at -6.4 2.5 90)
+			(size 1.524 1.924)
+			(drill oval 0.762 1.162)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 24 "/WHITE(DIN8)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "91544021-fc58-4ec8-b2f9-8362125b3f87")
+			(uuid "db14c350-3781-42b7-a35a-d1f2da6b96cc")
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965"
