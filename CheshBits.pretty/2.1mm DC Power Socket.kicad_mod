@@ -1,0 +1,104 @@
+(footprint "2.1mm DC Power Socket"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d202a62-2c80-410b-bff1-b1888b0d051c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.1mm DC Power Socket"
+		(at 0 -3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8af1a1db-ad8e-4c19-b181-161595aaaff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a88a45d-5d69-4de5-a27e-8a8684984e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acf89d68-cd0f-48f5-987e-e66bb35360b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f04c2f5d-9645-410d-a291-962bfe952944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 10.5 -3.2)
+		(end 10.5 3.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7939b78a-f6dc-4706-b37e-21c7b1250808")
+	)
+	(pad "1" thru_hole oval
+		(at -3.2 0 90)
+		(size 5 3)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d191e58-f7ad-4443-829b-f476c47ed309")
+	)
+	(pad "2" thru_hole oval
+		(at 2.8 0 90)
+		(size 5 3)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b115cf0-10d4-4d2a-9f91-40a9c5977d0e")
+	)
+	(pad "3" thru_hole oval
+		(at -0.2 4.9)
+		(size 5 3)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc04799f-3886-4737-9961-ac62b88cdf6c")
+	)
+)
